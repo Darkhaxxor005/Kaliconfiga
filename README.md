@@ -30,7 +30,7 @@ Autonomated basic bug fixer of Kali Linux.
          
          4.Updates pips
 
-         5.Upgrades you total system with new packages of the sources.
+         5.Upgrades your total system with new packages of the sources.
 
          6.Installs docker inside your system.[This is optional in your want to use it simplily remove # inside docker installtion area and make it executeable.]
 
