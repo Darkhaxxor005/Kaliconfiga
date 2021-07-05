@@ -90,7 +90,7 @@ This packages will autometicly install from a bash script from 0install.[Optiona
 
 Why 0install ??
      
-                       Its Fast
+                      Its Fast
       
                       It Can detect os architecture and download package compitable with it.
                       
