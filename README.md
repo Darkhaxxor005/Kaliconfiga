@@ -22,68 +22,45 @@ Autonomated basic bug fixer of Kali Linux.
 
 #What it conmtains and does??
 
-1.Removes your old source list and updates new sources.
+         1.Removes your old source list and updates new sources.
 
-2.Updates your system according to those new sources.
+         2.Updates your system according to those new sources.
 
-3.Configures pip in python2.7 and pip3 in python3.[Manually to avoid errors]
-4.Updates pips
+         3.Configures pip in python2.7 and pip3 in python3.[Manually to avoid errors]
+         
+         4.Updates pips
 
-5.Upgrades you total system with new packages of the sources.
+         5.Upgrades you total system with new packages of the sources.
 
-6.Installs docker inside your system.[This is optional in your want to use it simplily remove # inside docker installtion area and make it executeable.]
+         6.Installs docker inside your system.[This is optional in your want to use it simplily remove # inside docker installtion area and make it executeable.]
 
-7.All sources are taken from trusted resources and it contains all the packages of kali linux and there are 8 sources available in kaliconfiga.
+         7.All sources are taken from trusted resources and it contains all the packages of kali linux and there are 8 sources available in kaliconfiga.
 
-8.Extra packages--> 
+         8.Extra packages--> 
  
- dnsx
- 
-subfinder
-
- nuclei
-
- assetfinder
-
- wayback
- 
-meg
- 
-gf
- 
-gron
- 
-amass
- 
-webscreenshot
- 
-waybackunifier
- 
-shodan
- 
-censys
- 
-goaltdns
- 
-subjack
-
-ffuf
- 
-hakrawler
- 
-knockpy
- 
-kxss
- 
-dalfox
- 
-otxurls 
- 
-subjs 
- 
-Gau 
-
-
+                  dnsx
+                  subfinder
+                  nuclei
+                  assetfinder
+                  wayback
+                  meg
+                  gf
+                  gron
+                  amass
+                  webscreenshot
+                  waybackunifier
+                  shodan
+                  censys
+                  goaltdns
+                  subjack
+                  ffuf
+                  hakrawler
+                  knockpy
+                  kxss
+                  dalfox
+                  otxurls 
+                  subjs 
+                  Gau 
 
 This packages will autometicly install from a bash script from 0install.[Optional]
                        
@@ -102,12 +79,14 @@ Why 0install ??
      
                       It doesnt use apt to install tools so tools can be downloaded and installed in any distro.
 
-Tool Name:0install
-
-Tool language:bash
-
+Sub tool Name:0install
+Sub tool language:bash
 Author:Joy Ghoshs
-
 Github link:https://github.com/JoyGhoshs/
+
+                Main tool Name:Kaliconfiga
+                Mail toot language:Python3
+                Author:Indra Das
+                Email:facebook.accverify@gmail.com
 
 
