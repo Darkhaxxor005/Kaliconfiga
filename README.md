@@ -84,7 +84,7 @@ Why 0install ??
                      Author:Joy Ghoshs
                      Github link:https://github.com/JoyGhoshs/
 
-0install is a sub tool in kaliconfiga, if user wants to install the following packages then they can use it and I'not the author of 0install.
+0install is a sub tool in kaliconfiga, if user wants to install the following packages then they can use it and I'm not the author of 0install.
 
                 Main tool Name:Kaliconfiga
                 Mail tool language:Python3
