@@ -79,13 +79,15 @@ Why 0install ??
      
                       It doesnt use apt to install tools so tools can be downloaded and installed in any distro.
 
-Sub tool Name:0install
-Sub tool language:bash
-Author:Joy Ghoshs
-Github link:https://github.com/JoyGhoshs/
+                     Sub tool Name:0install
+                     Sub tool language:bash
+                     Author:Joy Ghoshs
+                     Github link:https://github.com/JoyGhoshs/
+
+0install is a sub tool in kaliconfiga, if user wants to install the following packages then they can use it and I'not the author of 0install.
 
                 Main tool Name:Kaliconfiga
-                Mail toot language:Python3
+                Mail tool language:Python3
                 Author:Indra Das
                 Email:facebook.accverify@gmail.com
 
