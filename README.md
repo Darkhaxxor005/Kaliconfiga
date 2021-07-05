@@ -62,7 +62,7 @@ Autonomated basic bug fixer of Kali Linux.
                   subjs 
                   Gau 
 
-This packages will autometicly install from a bash script from 0install.[Optional]
+This packages will autometicly install from a bash script named 0install.[Optional]
                        
 
 Why 0install ??
