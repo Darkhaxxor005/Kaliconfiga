@@ -81,7 +81,7 @@ Why 0install ??
 
                      Sub tool Name:0install
                      Sub tool language:bash
-                     Author:Joy Ghoshs
+                     Author:Joy Ghosh
                      Github link:https://github.com/JoyGhoshs/
 
 0install is a sub tool in kaliconfiga, if user wants to install the following packages then they can use it and I'm not the author of 0install.
