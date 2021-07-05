@@ -10,9 +10,9 @@ Autonomated basic bug fixer of Kali Linux.
 
 #Commands:
 
-sudo python3 kaliconfiga.py
+    *sudo python3 kaliconfiga.py
 
-In input section type '1' for yes and '2' for no.[Text input is not valid, number only.]
+    *In input section type '1' for yes and '2' for no.[Text input is not valid, number only.]
 
 
 
