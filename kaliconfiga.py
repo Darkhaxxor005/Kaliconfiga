@@ -115,6 +115,11 @@ try:
 	print("")
 	os.system('apt-get install lolcat -y')
 	print("")
+    try:
+		os.system('apt-get install wine wine32 -y')
+		print("")
+	except:
+		pass
 	 
 	try:
 		os.system('apt-get install golang -y')
