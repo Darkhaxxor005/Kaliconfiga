@@ -61,7 +61,10 @@ try:
 	print("")
 	os.system('pip3 install --upgrade pip')
 	print("")
-	os.system('python get-pip.py')
+	try:
+		os.system('python2 get-pip.py')
+	except:
+		os.system('python get-pip.py')
 	print("")
 	os.system('pip install --upgrade pip')
 	os.system('rm get-pip.py')
@@ -96,27 +99,30 @@ print(Fore.WHITE + "")
 print(Fore.GREEN + "Downloading" + Fore.RED + " Bengalifonts")
 print(Fore.WHITE + "")
 os.system('wget --no-check-certificate https://raw.githubusercontent.com/fahadahammed/linux-bangla-fonts/master/dist/lbfi -O lbfi')
+time.sleep(1)
 print("")
 print(Fore.GREEN + "Configuraing Bengali Fonts in your system.")
 print(Fore.WHITE + "")
-os.system('chmod +x lbfi')
+os.system('chmod +x ./lbfi')
 os.system('./lbfi')
+time.sleep(2)
 os.system('rm lbfi')
-print(Fore.WHITE + "[" + Fore.GREEN + "জয়" + Fore.RED +" বাংলা" + Fore.WHITE + "]Bengali Language Configuration Complete")
+
+print(Fore.GREEN + "\nBengali Language Configuration Complete.\n")
 
 try:                        
-	os.system('apt-get install neofetch')       #More default packages will be added soon!!
+	os.system('apt-get install neofetch -y')       #More default packages will be added soon!!
 	print("")
-	os.system('apt-get install lolcat')
+	os.system('apt-get install lolcat -y')
 	print("")
 	 
 	try:
-		os.system('apt-get install golang')
+		os.system('apt-get install golang -y')
 		print("")
 	except:
 		pass
 	try:
-		os.system('apt-get install jq')
+		os.system('apt-get install jq -y')
 		print("")
 	except:
 		pass
@@ -167,7 +173,8 @@ try:
 		os.system('neofetch')
 	except:
 		pass
-        	
+	os.system("sudo apt-get clean")
+	os.system("sudo apt-get autoremove --purge")	
 	print(Fore.GREEN + '''
 
    Kali Linux Configuration Complete!.................
